@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shawnlin:number-picker:2.4.6@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-number-picker-2.4.6.aar/bf8c6f96cb2922b1e748d790fa8530a2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-number-picker-2.4.6.aar/bf8c6f96cb2922b1e748d790fa8530a2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-number-picker-2.4.6.aar/bf8c6f96cb2922b1e748d790fa8530a2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shawnlin/number-picker/2.4.6/c4ac770aa5927ff5caec8d5058586bc3c3f8754f/number-picker-2.4.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

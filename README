@@ -1,0 +1,22 @@
+Todo's:
+
+* add dark map style (json file).
+* change map style from setting and during tracking.
+* test path drawer.
+* save path with session data.
+* add user profile + ability to edit. 
+* calculate burned calorie (by using profile data of the user).
+* add TTS engine.
+* share session data on social media.
+* redesign the app using matherial design patterns.
+* launch first beta version to test it.
+
+---------features------
+
+* customize live data panels.
+* add Gpx file during tracking.
+* extract Gpx file of the session.
+* add statistics for the session.
+
+---------long term------
+* add signin and singup using firebase services.

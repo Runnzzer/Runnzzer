@@ -1,0 +1,57 @@
+package com.runnzzerfitness.tracking;
+
+
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.PolylineOptions;
+import com.runnzzerfitness.R;
+
+import java.util.ArrayList;
+
+import androidx.lifecycle.MutableLiveData;
+
+
+public class PathGenerator {
+
+    private static final float PATH_WIDTH = 8f;
+
+    public MutableLiveData<ArrayList<PolylineOptions>> pathLiveData = new MutableLiveData<>();
+
+    public ArrayList<PolylineOptions> path = new ArrayList <>();
+    private PolylineOptions container = new PolylineOptions();
+    private boolean oldState;
+
+
+
+    public PathGenerator (Tracker tracker) {
+
+        this.oldState = tracker.state.getValue();//initialize tracking state.
+
+        tracker.state.observeForever(aBoolean -> {
+            if (container.getPoints().isEmpty()){
+                path.add(container);
+                container = new PolylineOptions();
+            }
+        });
+
+        tracker.currentLocation.observeForever(this::addNewUpdate);
+    }
+
+
+
+    private void addNewUpdate(LatLng ll){
+        if (oldState){
+            container.add(ll).color(R.color.colorAccent).width(PATH_WIDTH);
+        }else {
+            container.add(ll).color(R.color.grey).width(PATH_WIDTH);
+        }
+
+        pathLiveData.setValue(path);
+    }
+
+
+
+    public ArrayList<PolylineOptions> getPath (){
+        return path;
+    }
+
+}

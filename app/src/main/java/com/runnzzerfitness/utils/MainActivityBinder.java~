@@ -1,0 +1,60 @@
+package com.runnzzerfitness.utils;
+
+
+import android.Manifest;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Build;
+
+import com.runnzzerfitness.ui.activities.AddSessionActivity;
+import com.runnzzerfitness.ui.activities.MainActivity;
+import com.runnzzerfitness.ui.activities.ProfileActivity;
+
+
+public class MainActivityBinder {
+
+    public static final int LOCATION_REQUEST_CODE = 0;
+
+    private Context context;
+    private MainActivity mainActivity;
+
+    public MainActivityBinder(Context context, MainActivity mainActivity) {
+        this.context = context;
+        this.mainActivity = mainActivity;
+    }
+
+
+
+    public void grac (){
+        //TODO recheck condition checking process.
+        if (Build.VERSION.SDK_INT >= 23){
+            //permission not granted.
+            mainActivity.requestPermissions(
+                        new String[]{
+                                Manifest.permission.ACCESS_COARSE_LOCATION ,
+                                Manifest.permission.ACCESS_FINE_LOCATION
+                        },
+                        MainActivityBinder.LOCATION_REQUEST_CODE //request code.
+            );
+        }else {
+            mainActivity.openTrackingActivity();
+        }
+    }
+
+
+
+    public void showAddSessionFragment(){
+        Intent i = new Intent(context , AddSessionActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(i);
+    }
+
+
+
+    public void openProfileActivity(){
+        Intent i = new Intent(context , ProfileActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(i);
+    }
+
+}
