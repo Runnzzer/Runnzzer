@@ -1,98 +1,98 @@
 package com.runnzzerfitness.ui.activities;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.fragment.app.Fragment;
 
-import com.runnzzerfitness.utils.MainActivityBinder;
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+
+
+import androidx.annotation.NonNull;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.runnzzerfitness.R;
+import com.runnzzerfitness.data.DBManager;
+import com.runnzzerfitness.data.OverviewDataWrapper;
+import com.runnzzerfitness.databinding.ActivityMainBinding;
+
 import com.runnzzerfitness.fragments.HistoryFragment;
 import com.runnzzerfitness.fragments.HomeFragment;
 import com.runnzzerfitness.fragments.SettingsFragment;
+import com.runnzzerfitness.utils.MainActivityBinder;
 
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.os.Bundle;
-import android.view.MenuItem;
+import androidx.databinding.DataBindingUtil;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.runnzzerfitness.tracking.MainService;
-import com.runnzzerfitness.R;
-import com.runnzzerfitness.databinding.ActivityMainBinding;
-import com.runnzzerfitness.tracking.TrackingFlags;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
-public class MainActivity extends AppCompatActivity implements  BottomNavigationView.OnNavigationItemSelectedListener{
+import androidx.lifecycle.MutableLiveData;
+
+
+public class MainActivity extends AppCompatActivity {
+
+
+    public MutableLiveData<OverviewDataWrapper> overview = new MutableLiveData<>();
+    private MainActivityBinder binder;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //start service if it's not running.
-        startService(new Intent(this , MainService.class));
-
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this , R.layout.activity_main);
+
+        binder = new MainActivityBinder(this , this);
+
         BottomNavigationView bottomNavigationView = activityMainBinding.bottomNavigationView;
 
-        //set default fragment on the container.
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.fragmentContainer , new HomeFragment())
-                .commit();
+        //set default fragment.
+        bottomNavigationView.setSelectedItemId(R.id.nav_home);
+        setTransition(new HomeFragment());
 
-        //set listener.
-        bottomNavigationView.setOnNavigationItemSelectedListener(this);
+        bottomNavigationView.setOnNavigationItemSelectedListener(menuItem -> {
+            //TODO don't perform transition if fragment already showed on the container.
+            switch (menuItem.getItemId()){
+                case R.id.nav_home :
+                    setTransition(new HomeFragment());
+                    break;
+
+                case R.id.nav_his :
+                    setTransition(new HistoryFragment());
+                    break;
+
+                case R.id.nav_settings :
+                    setTransition(new SettingsFragment());
+                    break;
+            }
+
+            return true;
+        });
     }
 
+
+
+    private void setTransition (Fragment fragment){
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.container , fragment)
+                .commit();
+    }
 
 
 
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-        Fragment fragment = null;
+    protected void onResume() {
+        super.onResume();
 
-        switch (menuItem.getItemId()){
-            case R.id.nav_home:
-                fragment = new HomeFragment();
-                break;
-
-            case R.id.nav_his:
-                fragment = new HistoryFragment();
-                break;
-
-            case R.id.nav_settings:
-                fragment = new SettingsFragment();
-                break;
-        }
-
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.fragmentContainer , fragment)
-                .commit();
-
-        return true;
+        overview.setValue(DBManager.getInstance(this).getOverviewData());
     }
-
-
-    public void openTrackingActivity(){
-        //permission granted successfully.
-        finish();
-        Intent intent = new Intent(this, MainService.class);
-        intent.putExtra(TrackingFlags.FLAG_KEY , TrackingFlags.START_TRACKING);
-        startService(intent);
-        startActivity(new Intent(this , LiveTrackingActivity.class));
-    }
-
 
 
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == MainActivityBinder.LOCATION_REQUEST_CODE){
-            //
-            if (grantResults.length > 0
-                    && grantResults[0] == PackageManager.PERMISSION_GRANTED
-                    && grantResults[1] == PackageManager.PERMISSION_GRANTED){
-                openTrackingActivity();
+
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED){
+                binder.openTrackingActivity();
             }
 
         }

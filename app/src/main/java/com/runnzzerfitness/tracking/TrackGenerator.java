@@ -25,19 +25,19 @@ public class TrackGenerator {
 
     public TrackGenerator (Context context , Tracker tracker){
         this.context = context;
-
         tracker.state.observeForever(aBoolean -> {
             state = aBoolean;
 
             if(!path.isEmpty()){
-                if (!path.get(path.size() - 1).getPoints().isEmpty()){
 
+                if (!path.get(path.size() - 1).getPoints().isEmpty()){
                     List<LatLng> latLngs = path.get(path.size() - 1).getPoints();
 
                     PolylineOptions polylineOptions = new PolylineOptions().add(latLngs.get(latLngs.size() - 1));
 
                     path.add(polylineOptions);
                 }
+
             }
 
         });
@@ -47,7 +47,7 @@ public class TrackGenerator {
 
     public void addNewPoint (LatLng latLng){
         if (path.isEmpty()){
-            //initialize first item the list.
+            //initialize first item on the list.
             path.add(new PolylineOptions());
         }
 

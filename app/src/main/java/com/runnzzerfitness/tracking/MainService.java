@@ -46,7 +46,7 @@ public class MainService extends Service {
             //get respond.
             int respond = intent.getExtras().getInt(TrackingFlags.FLAG_KEY);
 
-            if (respond  == TrackingFlags.START_TRACKING && Tracker.INSTANCE == null){
+            if (respond  == TrackingFlags.START_TRACKING  && Tracker.INSTANCE == null){
                 Tracker tracker = Tracker.getInstance();
                 tracker.start(getBaseContext());
                 startForeground();

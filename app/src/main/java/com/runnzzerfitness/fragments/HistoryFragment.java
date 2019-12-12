@@ -7,14 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.runnzzerfitness.ui.activities.MainActivity;
 import com.runnzzerfitness.ui.activities.PreviewSessionActivity;
 import com.runnzzerfitness.utils.HistoryListAdapter;
 import com.runnzzerfitness.R;
 import com.runnzzerfitness.data.DBManager;
 import com.runnzzerfitness.data.DataWrapper;
 import com.runnzzerfitness.databinding.HistoryFragmentBinding;
-import com.runnzzerfitness.utils.MainActivityBinder;
 
 import java.util.ArrayList;
 import java.util.Collections;

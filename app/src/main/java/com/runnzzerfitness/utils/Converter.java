@@ -234,9 +234,11 @@ public class Converter {
                 .format( Calendar.getInstance().getTime());
     }
 
+
     public static String monthIndex(int month){
         return months[month];
     }
+
 
     public static String getTimeFormat (int hour){
         if (hour > 12){
@@ -244,6 +246,16 @@ public class Converter {
         }
         return "AM";
     }
+
+
+    //Time and date utils.
+    private static String [] months = {
+            "Jan" , "Feb" , "Mar" ,
+            "Apr" , "May" ,"Jun" ,
+            "Jul" , "Aug" , "Sep" ,
+            "Oct" , "Nov" , "Dec"
+    };
+
 
     public static int getAge (int year, int month, int day){
         Calendar dob = Calendar.getInstance();
@@ -260,13 +272,5 @@ public class Converter {
         return age;
     }
 
-
-    //Time and date utils.
-    private static String [] months = {
-            "Jan" , "Feb" , "Mar" ,
-            "Apr" , "May" ,"Jun" ,
-            "Jul" , "Aug" , "Sep" ,
-            "Oct" , "Nov" , "Dec"
-    };
 
 }

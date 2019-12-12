@@ -7,7 +7,7 @@
     <data>
 
         <import type="java.util.Locale"/>
-        <import type="com.runnzzerfitness.utils.Converter"/>
+        <import type="com.runnzzerfitness.utils.Formatter"/>
 
         <variable
             name="binder"
@@ -166,7 +166,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="16dp"
-                        android:text="@{Converter.getTime(sessionData.duration)}"
+                        android:text="@{Formatter.getTime(sessionData.duration)}"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
@@ -199,7 +199,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="16dp"
-                        android:text="@{Converter.getDistance(context , sessionData.distance)}"
+                        android:text="@{Formatter.getDistance(context , sessionData.distance)}"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
@@ -234,7 +234,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="16dp"
-                        android:text="@{Converter.getPace(context , sessionData.duration , sessionData.distance )}"
+                        android:text="@{Formatter.getPace(context , sessionData.duration , sessionData.distance )}"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
@@ -269,7 +269,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="16dp"
-                        android:text="@{Converter.getAvgSpeed(context , sessionData.duration ,  sessionData.distance)}"
+                        android:text="@{Formatter.getAvgSpeed(context , sessionData.duration ,  sessionData.distance)}"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
@@ -303,7 +303,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="16dp"
-                        android:text="@{Converter.getMaxElevation(sessionData.maxElevation)}"
+                        android:text="@{Formatter.getMaxElevation(sessionData.maxElevation)}"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 

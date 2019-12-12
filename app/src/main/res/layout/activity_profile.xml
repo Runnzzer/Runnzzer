@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="com.runnzzerfitness.utils.Converter" />
+        <import type="com.runnzzerfitness.utils.Formatter" />
 
         <variable
             name="activity"

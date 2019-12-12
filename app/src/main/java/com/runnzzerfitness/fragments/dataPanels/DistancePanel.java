@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment;
 
 import com.runnzzerfitness.tracking.Tracker;
 import com.runnzzerfitness.utils.Converter;
+import com.runnzzerfitness.utils.Formatter;
 
 import java.util.Locale;
 
@@ -25,13 +26,7 @@ public class DistancePanel extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        final DistancePanleFragmentBinding distancePanleFragmentBinding = DataBindingUtil.inflate(inflater ,
-                R.layout.distance_panle_fragment ,
-                container ,
-                false);
-
-        //set distance unite text.
-        distancePanleFragmentBinding.distanceUnite.setText(Converter.getDistanceSymbol(getContext()));
+        DistancePanleFragmentBinding distancePanleFragmentBinding = DataBindingUtil.inflate(inflater , R.layout.distance_panle_fragment , container , false);
 
         Tracker.getInstance().distanceLiveData.observe(this, aDouble -> distancePanleFragmentBinding
                 .distanceValue
@@ -39,6 +34,10 @@ public class DistancePanel extends Fragment {
                         //set converted distance value to text.
                         String.format(Locale.ENGLISH , "%.1f", Converter.getDistanceVal(getContext(), aDouble))
                 ));
+
+
+        //set distance unite text.
+        distancePanleFragmentBinding.distanceUnite.setText(Formatter.getDistanceSymbol(getContext()));
 
         return distancePanleFragmentBinding.getRoot();
     }

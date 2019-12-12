@@ -15,9 +15,11 @@ import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 
 import com.runnzzerfitness.R;
+import com.runnzzerfitness.data.SettingsManager;
 import com.runnzzerfitness.databinding.MapFragmentBinding;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.PopupMenu;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
@@ -25,16 +27,19 @@ import com.runnzzerfitness.tracking.Tracker;
 
 
 
-public class MapFragment extends Fragment implements OnMapReadyCallback {
+public class MapFragment extends Fragment implements OnMapReadyCallback{
 
 
     private static final int map_camera_zoom = 16;//map camera zoom level.
     private Tracker tracker;
+    private GoogleMap googleMap;
+    private MapFragmentBinding mapFragmentBinding;
+
 
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        MapFragmentBinding mapFragmentBinding = DataBindingUtil.inflate(inflater , R.layout.map_fragment , container , false);
+        mapFragmentBinding = DataBindingUtil.inflate(inflater , R.layout.map_fragment , container , false);
 
         tracker = Tracker.getInstance();
 
@@ -42,6 +47,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         mapFragmentBinding.setTracker(tracker);
         mapFragmentBinding.setFragmentActivity(getActivity());
         mapFragmentBinding.setContext(getContext());
+        mapFragmentBinding.setFragment(this);
 
         //observation.
         mapFragmentBinding.setLifecycleOwner(this);
@@ -65,13 +71,15 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     @SuppressLint("MissingPermission")
     @Override
     public void onMapReady(GoogleMap googleMap) {
-
-        MapsInitializer.initialize(getContext());
+        this.googleMap = googleMap;
 
         if (googleMap != null){
-            //show blue dot of current location on the map.
-            googleMap.setMyLocationEnabled(true);
-            googleMap.getUiSettings().setMyLocationButtonEnabled(false);
+            MapsInitializer.initialize(getContext());
+
+            //set map default settings.
+            googleMap.setMyLocationEnabled(true);//add blue dot of current location to the map.
+            googleMap.getUiSettings().setMyLocationButtonEnabled(false);//disable current location button.
+            googleMap.setMapType(SettingsManager.getSettingsManager(getContext()).getMapStyle());//Map Type.
 
             //Observe last location update and update map camera.
             tracker.currentLocation.observe(this, latLng -> {
@@ -80,13 +88,46 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                 }
             });
 
-            //observe path state.
+            //observe path state and draw it to the map.
             tracker.trackGenerator.onPathChanged(path -> {
                 for (int i=0; i<path.size() ;i++)
                     googleMap.addPolyline(path.get(i));
             });
+
         }
     }
 
+
+
+    public void changeMapStyle () {
+        PopupMenu popup = new PopupMenu(getContext() , mapFragmentBinding.mapStylesButton);
+        popup.getMenuInflater().inflate(R.menu.map_styles, popup.getMenu());
+        popup.setOnMenuItemClickListener(item -> {
+
+            SettingsManager settingsManager = SettingsManager.getSettingsManager(getContext());
+            switch (item.getItemId()){
+                case R.id.normal :
+                    settingsManager.changeMapStyle(GoogleMap.MAP_TYPE_NORMAL);
+                    break;
+
+                case R.id.satellite :
+                    settingsManager.changeMapStyle(GoogleMap.MAP_TYPE_SATELLITE);
+                    break;
+
+                case R.id.terrain :
+                    settingsManager.changeMapStyle(GoogleMap.MAP_TYPE_TERRAIN);
+                    break;
+            }
+
+            //change Map Style if the map is present.
+            if (googleMap != null){
+                googleMap.setMapType(settingsManager.getMapStyle());
+            }
+
+            return true;
+        });
+        popup.show();
+
+    }
 
 }

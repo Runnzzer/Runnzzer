@@ -4,7 +4,7 @@ import android.location.Location;
 import java.util.ArrayList;
 
 /**
- * com.runnzzerfitness.data structure to store location updates temporarylly before get processed.
+ * com.runnzzerfitness.data structure to store location updates temporally before get processed.
  * based on first in first out (FIFO) principle.
  */
 
@@ -18,13 +18,14 @@ public class LocationUpdatesQueue {
     }
 
 
-    /*** @param location item to be added the list.*/
+    /*** @param location the item to be added to the list.*/
     public void add (Location location){
         list.add(location);
     }
 
 
-    /*** @return first item on the list and delete it.*/
+
+    /*** @return the first item on the list and delete it.*/
     public Location get (){
         if (list.size() > 0){
             Location location = list.get(0);
@@ -34,10 +35,6 @@ public class LocationUpdatesQueue {
         throw new NullPointerException ("location updates queue is empty !!");
     }
 
-
-    public void clear (){
-        list.clear();
-    }
 
 
     /*** return current array size.*/

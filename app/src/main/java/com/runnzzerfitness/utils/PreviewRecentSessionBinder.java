@@ -3,6 +3,7 @@ package com.runnzzerfitness.utils;
 
 import android.content.Context;
 import android.content.Intent;
+
 import com.runnzzerfitness.ui.activities.MainActivity;
 import com.runnzzerfitness.ui.activities.PreviewRecentSessionActivity;
 

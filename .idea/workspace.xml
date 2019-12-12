@@ -3,16 +3,16 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="Nexus 6P" />
         <device id="pixel" />
-        <device id="pixel_xl" />
         <device id="pixel_3_xl" />
         <device id="pixel_2" />
-        <device id="pixel_2_xl" />
-        <device id="Nexus 5X" />
+        <device id="pixel_3" />
+        <device id="pixel_xl" />
+        <device id="Nexus 7 2013" />
+        <device id="Nexus 9" />
         <device id="Nexus 7" />
-        <device id="Nexus 10" />
-        <device id="pixel_c" />
+        <device id="Nexus 6P" />
+        <device id="pixel_2_xl" />
         <target>android-21</target>
       </config>
     </shared>
@@ -24,100 +24,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b27c98b-84e1-4fa0-a25a-683a4d4afc34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/render.experimental.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/ic_default_profile-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/EditProfileFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/CustomDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectAddSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectHeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectImageSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectMapStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/TextDialogListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/TrackGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/onPathChanged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/ProfileActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/getBitMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/ProfileActivityBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_accent_stoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dark_gradient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_person_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/relay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/open_sans_light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/edit_profile_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile_data_row.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_add_session.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_height.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_image_source.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_text.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_weight.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_default_profile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_default_profile_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_default_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_default_profile_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_default_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_default_profile_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_default_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_default_profile_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_default_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_default_profile_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_default_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_default_profile_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zgr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zgr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_rc01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_rc01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/HistoryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/SettingsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/Formatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/open_sans_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/rajdhani_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/core_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/overview_slide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/map_styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_rc01_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_beta01_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_rc01_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_beta01_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_alpha02_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_alpha02_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_alpha02_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_2_alpha02_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_2_alpha02_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_beta02_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_beta02_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/render.experimental.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/render.experimental.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/OverviewDataWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/OverviewDataWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/ProfileDataWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/ProfileDataWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/ProfileSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/ProfileSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SessionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SessionData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SettingsManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HistoryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HistoryFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HomeFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/MapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/MapFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/SettingsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/SettingsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/DistancePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/DistancePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/DurationPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/DurationPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/PacePanle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/PacePanle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/PanelsBindingUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/PanelsBindingUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/SpeedPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/SpeedPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DeleteAlertDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DeleteAlertDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectCalories.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectCalories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectDuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectDuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectFeedBackFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectMapStyleFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectMapStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectMapStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/LocationUpdatesQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/LocationUpdatesQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/PathGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/TrackGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/TrackGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/tracking/Tracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/PreviewRecentSessionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/PreviewRecentSessionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/PreviewSessionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/PreviewSessionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/AddSessionActivityBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/AddSessionActivityBinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/DataBindingHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/DataBindingHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/EditSessionBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/EditSessionBinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/ListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/HistoryListAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/MainActivityBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/MainActivityBinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/PreviewSessionActivityBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/PreviewSessionActivityBinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/PreviewRecentSessionBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/PreviewRecentSessionBinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/accent_rectangle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/accent_rectangle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/alert_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/alert_dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/controll_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/controll_button.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dark_them.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gmail_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/card_frame.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/card_frame.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dark_gradient.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/elevation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/relay.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/value_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/value_bg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/montserrat_regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/geosans_light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/montserrat_light.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_session.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_session.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_live_tracking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_live_tracking.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/delete_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/delete_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/edit_profile_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/edit_profile_fragment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/edit_session.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/edit_session.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/history_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/history_fragment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml" afterDir="false" />
@@ -125,18 +130,15 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/map_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/map_fragment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/preview_recent_session.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/preview_recent_session.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/preview_session.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/preview_session.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/select_calories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_calories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/select_distance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_distance.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/select_duration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_duration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/select_feedbackrate_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_map_style.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/select_map_style_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/select_map_style.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/select_map_style.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/settings_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/settings_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/runnzzerfitness/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/runnzzerfitness/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,48 +162,27 @@
     <favorites_list name="Runnzzer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectMapStyle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/design.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SettingsManager.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="method#SettingsManager#0;class#SettingsManager#0" />
-                <element signature="method#getSettingsManager#0;class#SettingsManager#0" />
-                <element signature="method#getAudioState#0;class#SettingsManager#0" />
-                <element signature="method#changeAudioState#0;class#SettingsManager#0" />
-                <element signature="method#changeDistanceUnite#0;class#SettingsManager#0" />
-                <element signature="method#getFirstPanel#0;class#SettingsManager#0" />
-                <element signature="method#getSecondPanel#0;class#SettingsManager#0" />
-                <element signature="method#getThirdPanel#0;class#SettingsManager#0" />
-                <element signature="method#getFourthPanel#0;class#SettingsManager#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/MainActivityBinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="method#MainActivityBinder#0;class#MainActivityBinder#0" />
-                <element signature="method#showChoseDialog#0;class#MainActivityBinder#0" />
-                <element signature="method#openTrackingActivity#0;class#MainActivityBinder#0" />
-                <element signature="method#openAddSessionActivity#0;class#MainActivityBinder#0" />
-                <element signature="method#openProfileActivity#0;class#MainActivityBinder#0" />
-              </folding>
+            <state relative-caret-position="64">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -211,10 +192,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="Interface" />
-        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -229,65 +210,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogBuilder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/ProfileDataWrapper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/preview_recent_session.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/EditProfileFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectImageSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/ProfileActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/alert_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/DataBindingHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HistoryFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectAddSession.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/preview_session.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_image_source.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_add_session.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/edit_session.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/edit_profile_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_session.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/circle_background.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/map_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/live_data_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_height.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_feedback_rate.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectFeedBackRate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/DistancePanel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/DurationPanel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/SpeedPanel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/PacePanle.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dataPanels/PanelsBindingUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/settings_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/SettingsFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/history_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/distance_panle_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/delete_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_weight.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_text.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_map_style.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_calories.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_distance.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_duration.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/Converter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/OverviewDataWrapper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/DBManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/ProfileSettings.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/MainActivityBinder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SettingsManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/map_styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectMapStyle.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SettingsManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/MapFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/alert_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_map_style.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main2_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/Main.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/PreviewRecentSessionBinder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/drawer_nav.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/MainActivityBinder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/value_bg.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/navigation_tool_bar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/HistoryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/overview_card_background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/SettingsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/accent_rectangle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/start_button.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/history_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/settings_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/core_button.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/map_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/preview_session.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/card_frame.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/overview_slide.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1258" />
-    <option name="y" value="57" />
-    <option name="width" value="1155" />
-    <option name="height" value="778" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="165" />
+    <option name="y" value="61" />
+    <option name="width" value="1302" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -302,33 +283,15 @@
           <expand>
             <path>
               <item name="Runnzzer" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Runnzzer" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Runnzzer" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="runnzzerfitness" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Runnzzer" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="runnzzerfitness" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,7 +438,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1084" y="-11" width="1541" height="912" extended-state="6" />
+    <frame x="165" y="61" width="1302" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -485,238 +448,303 @@
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4248862" visible="true" weight="0.26118904" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4248862" visible="true" weight="0.25" />
       <window_info id="Resources Explorer" order="8" weight="0.32932532" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.71847135" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.7177522" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.36061382" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32736573" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32611465" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3256705" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50033444" side_tool="true" weight="0.3657289" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49966556" weight="0.24585988" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32229298" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49966556" visible="true" weight="0.359401" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3218391" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32736573" />
+      <window_info anchor="bottom" id="Buck" order="10" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.5076726" side_tool="true" weight="0.3779264" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" sideWeight="0.46452704" weight="0.24248497" />
+      <window_info active="true" anchor="right" id="Preview" order="4" sideWeight="0.41890165" visible="true" weight="0.51640993" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" x="0" y="0" width="333" height="704" id="Documentation" order="6" sideWeight="0.535473" side_tool="true" visible="true" weight="0.24248497" />
+      <window_info anchor="right" auto_hide="true" x="0" y="0" width="333" height="704" id="Documentation" order="6" sideWeight="0.5810983" side_tool="true" weight="0.31930527" />
       <window_info anchor="right" id="Assistant" order="7" visible="true" weight="0.43094406" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Structure" order="1" sideWeight="0.5744681" side_tool="true" weight="0.275" />
+      <window_info id="Structure" order="1" sideWeight="0.57511383" side_tool="true" weight="0.31536388" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32919255" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.42553192" visible="true" weight="0.20869565" />
-      <window_info id="Resources Explorer" order="8" weight="0.3297659" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.71867007" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4248862" visible="true" weight="0.253841" />
+      <window_info id="Resources Explorer" order="8" weight="0.32932532" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.7177522" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.36061382" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32736573" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32736573" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3256705" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50033444" side_tool="true" weight="0.3657289" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49966556" weight="0.23401535" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32352942" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49966556" weight="0.3614304" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3218391" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32736573" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.5076726" side_tool="true" weight="0.3779264" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="right" id="Preview" order="4" sideWeight="0.49232736" visible="true" weight="0.35986623" />
+      <window_info anchor="right" id="Preview" order="4" sideWeight="0.41890165" weight="0.51703405" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" x="0" y="0" width="333" height="704" id="Documentation" order="6" sideWeight="0.5121639" side_tool="true" weight="0.36150235" />
+      <window_info anchor="right" auto_hide="true" x="0" y="0" width="333" height="704" id="Documentation" order="6" sideWeight="0.5810983" side_tool="true" weight="0.31930527" />
       <window_info anchor="right" id="Assistant" order="7" visible="true" weight="0.43094406" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectAddSession.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/drawables.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="131" selection-start-line="22" selection-start-column="131" selection-end-line="22" selection-end-column="131" />
+        <state relative-caret-position="48">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_camera.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" lean-forward="true" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onCreateView#0;class#SelectAddSession#0" />
-            <element signature="method#setInitValue#0;class#SelectAddSession#0" />
-            <element signature="method#setDialogBuilder#0;class#SelectAddSession#0" />
+            <element signature="e#1102#1449#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nbd-iphone-screens.jpg" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/disyn.jpeg" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ref.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/preview_recent_session.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/PreviewRecentSessionBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="133" column="29" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
-          <folding>
-            <element signature="e#5433#13153#0" />
-            <element signature="e#5996#7136#0" />
-            <element signature="e#7154#7440#0" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_image_source.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/MainActivityBinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="49" />
           <folding>
-            <element signature="e#168#320#0" />
-            <element signature="e#327#2175#0" />
+            <element signature="method#MainActivityBinder#0;class#MainActivityBinder#0" />
+            <element signature="method#showChoseDialog#0;class#MainActivityBinder#0" />
+            <element signature="method#openTrackingActivity#0;class#MainActivityBinder#0" />
+            <element signature="method#openTrackingActivity#0;class#MainActivityBinder#0" />
+            <element signature="method#openAddSessionActivity#0;class#MainActivityBinder#0" />
+            <element signature="method#openProfileActivity#0;class#MainActivityBinder#0" />
+            <element signature="method#showMapStyleDialog#0;class#MainActivityBinder#0" />
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_add_session.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
-          <folding>
-            <element signature="e#374#3108#0" />
-            <element signature="e#1422#1438#0" expanded="true" />
-            <element signature="e#2669#2687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/circle_background.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/value_bg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/drawer_nav.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/DataBindingHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/map_styles.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0-rc01/f6bc38aa5491626af5fb3b516b5c51c348ff2211/appcompat-1.1.0-rc01-sources.jar!/androidx/appcompat/app/AppCompatActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/HistoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#760#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="e#831#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/overview_card_background.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/settings_border_panle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/artboard.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/dark_gradient.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/montserrat_light.ttf" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/open_sans_light.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/geosans_light.ttf" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/navigation_tool_bar.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ref.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/rose.jpeg" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HistoryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/SettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#174#193#0" expanded="true" />
+            <element signature="e#309#326#0" expanded="true" />
+            <element signature="e#445#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/accent_rectangle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="method#setTransition#0;class#MainActivity#0" />
+            <element signature="method#onResume#0;class#MainActivity#0" />
+            <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/start_button.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_row.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/elevation.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/baron_neue_italic.ttf" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/history_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_stop_red.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_my_location.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings_fragment.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+          <folding>
+            <element signature="e#599#620#0" expanded="true" />
+            <element signature="e#2278#2308#0" expanded="true" />
+            <element signature="e#6821#8400#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/core_button.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/map_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/live_data_fragment.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_height.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="148" column="12" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
-          <folding>
-            <element signature="e#2116#2139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/DialogBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bottom_navigation_colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/dark_gradient.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/history_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="e#990#1007#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/relay.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/map_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/preview_session.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit_session.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit_profile_fragment.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#735#2834#0" />
-            <element signature="e#2841#3184#0" />
-          </folding>
+        <state relative-caret-position="1696">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="255" column="67" lean-forward="true" selection-start-line="255" selection-start-column="67" selection-end-line="255" selection-end-column="67" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/distance_panle_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#1142#1153#0" expanded="true" />
-            <element signature="e#1570#1588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings_fragment.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="165" column="63" selection-start-line="165" selection-start-column="63" selection-end-line="165" selection-end-column="63" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,266 +753,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/overview_slide.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/card_frame.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="256">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_session.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/m_light.ttf" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/delete_dialog.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_duration.xml">
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_distance.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_calories.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="36" />
-          <folding>
-            <element signature="e#2136#2147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_map_style.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_weight.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_text.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="44" />
-          <folding>
-            <element signature="e#1396#1407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/getBitMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/ui/activities/ProfileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1767#1768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/b2da9f8444128651758719856de579eacff7f387/gson-2.8.2-sources.jar!/com/google/gson/Gson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="method#onCreateView#0;class#HomeFragment#0" />
-            <element signature="method#onResume#0;class#HomeFragment#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectImageSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/ProfileSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="method#ProfileSettings#0;class#ProfileSettings#0" />
-            <element signature="method#getInstance#0;class#ProfileSettings#0" />
-            <element signature="method#editProfile#0;class#ProfileSettings#0" />
-            <element signature="method#getProfile#0;class#ProfileSettings#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="method#getTime#0;class#Converter#0" />
-            <element signature="method#getSpeed#0;class#Converter#0" />
-            <element signature="method#getDistance#0;class#Converter#0" />
-            <element signature="method#getPace#0;class#Converter#0" />
-            <element signature="method#getMaxElevation#0;class#Converter#0" />
-            <element signature="method#getHeight#0;class#Converter#0" />
-            <element signature="method#getWeight#0;class#Converter#0" />
-            <element signature="method#getDistanceVal#0;class#Converter#0" />
-            <element signature="method#getWeightVal#0;class#Converter#0" />
-            <element signature="method#getPaceVal#0;class#Converter#0" />
-            <element signature="method#getSpeedVal#0;class#Converter#0" />
-            <element signature="method#getHeightSymbol#0;class#Converter#0" />
-            <element signature="method#getWeightSymbol#0;class#Converter#0" />
-            <element signature="method#getGenderSymbol#0;class#Converter#0" />
-            <element signature="method#getDistanceSymbol#0;class#Converter#0" />
-            <element signature="method#getSpeedSymbol#0;class#Converter#0" />
-            <element signature="method#getPaceSymbol#0;class#Converter#0" />
-            <element signature="method#getDividedTime#0;class#Converter#0" />
-            <element signature="method#getDividedDistance#0;class#Converter#0" />
-            <element signature="method#getDividedWeight#0;class#Converter#0" />
-            <element signature="method#toMeters#0;class#Converter#0" />
-            <element signature="method#toGrams#0;class#Converter#0" />
-            <element signature="method#getDateFormat#0;class#Converter#0" />
-            <element signature="method#getTimeFormat#0;class#Converter#0" />
-            <element signature="method#getAge#1;class#Converter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/DBManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="212" column="34" selection-start-line="212" selection-start-column="15" selection-end-line="212" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#updateSession#0;class#DBManager#0" />
-          </folding>
+        <state relative-caret-position="256">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="170" column="54" lean-forward="true" selection-start-line="170" selection-start-column="54" selection-end-line="170" selection-end-column="54" />
-          <folding>
-            <element signature="e#840#2103#0" />
-            <element signature="e#2115#2475#0" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/OverviewDataWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="464">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/SettingsFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        <state relative-caret-position="64">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/utils/MainActivityBinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="method#MainActivityBinder#0;class#MainActivityBinder#0" />
-            <element signature="method#showChoseDialog#0;class#MainActivityBinder#0" />
-            <element signature="method#openTrackingActivity#0;class#MainActivityBinder#0" />
-            <element signature="method#openAddSessionActivity#0;class#MainActivityBinder#0" />
-            <element signature="method#openProfileActivity#0;class#MainActivityBinder#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/data/SettingsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="method#SettingsManager#0;class#SettingsManager#0" />
-            <element signature="method#getSettingsManager#0;class#SettingsManager#0" />
-            <element signature="method#getAudioState#0;class#SettingsManager#0" />
-            <element signature="method#changeAudioState#0;class#SettingsManager#0" />
-            <element signature="method#changeDistanceUnite#0;class#SettingsManager#0" />
-            <element signature="method#getFirstPanel#0;class#SettingsManager#0" />
-            <element signature="method#getSecondPanel#0;class#SettingsManager#0" />
-            <element signature="method#getThirdPanel#0;class#SettingsManager#0" />
-            <element signature="method#getFourthPanel#0;class#SettingsManager#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/runnzzerfitness/fragments/dialogs/SelectMapStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/design.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">

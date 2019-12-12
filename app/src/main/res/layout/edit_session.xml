@@ -5,7 +5,7 @@
 
     <data>
 
-        <import type="com.runnzzerfitness.utils.Converter"/>
+        <import type="com.runnzzerfitness.utils.Formatter"/>
 
         <variable
             name="binder"
@@ -127,7 +127,7 @@
                     android:layout_margin="16dp"
                     android:background="@drawable/select_stoke_button"
                     android:onClick="@{() -> binder.showDurationFragment()}"
-                    android:text="@{Converter.getTime(vm.sessionData.duration)}" />
+                    android:text="@{Formatter.getTime(vm.sessionData.duration)}" />
 
 
 
@@ -145,7 +145,7 @@
                     android:layout_margin="16dp"
                     android:background="@drawable/select_stoke_button"
                     android:onClick="@{() -> binder.showDistanceFragment()}"
-                    android:text="@{Converter.getDistance(vm.context , vm.sessionData.distance)}" />
+                    android:text="@{Formatter.getDistance(vm.context , vm.sessionData.distance)}" />
 
 
             </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <import type="com.runnzzerfitness.utils.Converter" />
+        <import type="com.runnzzerfitness.utils.Formatter" />
 
         <variable
             name="context"
@@ -153,7 +153,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="@{Converter.getAge(fragment.profile.age)}"
+                android:text="@{Formatter.getAge(fragment.profile.age)}"
                 android:onClick="@{() -> fragment.selectAge()}"
                 android:background="@drawable/select_stoke_button"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -171,7 +171,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="@{Converter.getHeight(context , fragment.profile.height)}"
+                android:text="@{Formatter.getHeight(context , fragment.profile.height)}"
                 android:onClick="@{() -> fragment.selectHeight()}"
                 android:background="@drawable/select_stoke_button"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -190,7 +190,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:onClick="@{() -> fragment.selectWeight()}"
-                android:text="@{Converter.getWeight(context , fragment.profile.weight)}"
+                android:text="@{Formatter.getWeight(context , fragment.profile.weight)}"
                 android:background="@drawable/select_stoke_button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView43"/>

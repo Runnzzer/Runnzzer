@@ -49,16 +49,9 @@ public class DurationPanel extends Fragment implements Runnable,Observer<Boolean
 
 
 
-
     private void stopCounting() {
         handler.removeCallbacks(this);
     }
-
-
-
-
-
-
 
 
 

@@ -23,6 +23,8 @@ public class PacePanle extends Fragment {
                 container ,
                 false);
 
+        //TODO initialize pace value and symbols.
+
         return pacePanelFragmentBinding.getRoot();
     }
 }

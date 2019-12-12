@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 
 import com.runnzzerfitness.tracking.Tracker;
 import com.runnzzerfitness.utils.Converter;
+import com.runnzzerfitness.utils.Formatter;
 
 import java.util.Locale;
 
@@ -27,7 +28,7 @@ public class SpeedPanel extends Fragment {
 
 
         //speed unite text.
-        speedPanelFragmentBinding.speedDistanceUnite.setText(Converter.getSpeedSymbol(getContext()));
+        speedPanelFragmentBinding.speedDistanceUnite.setText(Formatter.getSpeedSymbol(getContext()));
 
 
         Tracker.getInstance().speedLiveData.observe(this,

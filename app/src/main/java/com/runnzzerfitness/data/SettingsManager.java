@@ -18,39 +18,22 @@ public class SettingsManager {
     private static SharedPreferences sharedPreferences;
     private static SettingsManager settingsManager = null;
 
-    //Name for shared preferences.
+    //Name of shared preferences.
     private static final String NAME = "settings";
 
     //Keys.
-    private static final String AUDIO_KEY = "audio";
-    private static final String UNITE_KEY = "distanceLiveData";
-
-
+    private static final String AUDIO_KEY = "audio_key";
+    private static final String UNITE_KEY = "distance_key";
 
     //Default Values.
-    private static boolean AUDIO_DEFAULT_VALUE = true;
-    private static boolean UNITE_DEFAULT_VALUE = true;//true -> metrical false -> imperial .
-
-
-
-    //com.runnzzerfitness.fragments reference.
-    private Fragment[] fragments = {
-            new DurationPanel(),//0
-            new DistancePanel(),//1
-            new SpeedPanel(),//2
-            new PacePanle(),//3
-            new ElevationPanel()//4
-    };
-
-
-
+    private static boolean AUDIO_DEFAULT_VALUE = true;//true -> on ; false -> off
+    private static boolean UNITE_DEFAULT_VALUE = true;//true -> metrical ; false -> imperial .
 
 
 
     private SettingsManager() {
         //require empty private constructor to fit singleton pattern.
     }
-
 
 
     public static SettingsManager getSettingsManager (Context context){
@@ -62,11 +45,9 @@ public class SettingsManager {
     }
 
 
-
     public boolean getAudioState (){
         return sharedPreferences.getBoolean(AUDIO_KEY , AUDIO_DEFAULT_VALUE);
     }
-
 
 
     public boolean changeAudioState (){
@@ -79,11 +60,9 @@ public class SettingsManager {
     }
 
 
-
     public boolean getUnite(){
         return sharedPreferences.getBoolean(UNITE_KEY, UNITE_DEFAULT_VALUE);
     }
-
 
 
     public boolean changeDistanceUnite (){
@@ -99,7 +78,6 @@ public class SettingsManager {
 
 
 
-
     private static final String FIRST_PANEL = "first_panel";
     private static final String SECOND_PANEL = "second_panel";
     private static final String THIRD_PANEL = "third_panel";
@@ -110,6 +88,17 @@ public class SettingsManager {
     private static final int SECOND_PANEL_VALUE = 1;
     private static final int THIRD_PANEL_VALUE = 2;
     private static final int FOURTH_PANEL_VALUE = 4;
+
+
+    //com.runnzzerfitness.fragments reference.
+    private Fragment[] fragments = {
+            new DurationPanel(),//0
+            new DistancePanel(),//1
+            new SpeedPanel(),//2
+            new PacePanle(),//3
+            new ElevationPanel()//4
+    };
+
 
     public Fragment getFirstPanel(){
         return fragments[sharedPreferences.getInt(FIRST_PANEL , FIRST_PANEL_VALUE)];
@@ -127,5 +116,33 @@ public class SettingsManager {
         return fragments[sharedPreferences.getInt(FOURTH_PANEL , FOURTH_PANEL_VALUE)];
     }
 
+
+
+
+
+
+    private static final String MAP_STYLE_KEY = "mapStyle_key";
+    private static final int DEFAULT_MAP_STYLE = GoogleMap.MAP_TYPE_NORMAL;
+
+    private static String [] mapStylesTitles = {
+            "Normal" , "Satellite" , "Terrain" ,
+    };
+
+    public String[] getMapStylesTitles(){
+        return mapStylesTitles;
+    }
+
+
+    public int getMapStyle (){
+        return sharedPreferences.getInt(MAP_STYLE_KEY , DEFAULT_MAP_STYLE);
+    }
+
+
+    public void changeMapStyle (int mapStyle){
+        sharedPreferences
+                .edit()
+                .putInt(MAP_STYLE_KEY ,  mapStyle)
+                .apply();
+    }
 
 }

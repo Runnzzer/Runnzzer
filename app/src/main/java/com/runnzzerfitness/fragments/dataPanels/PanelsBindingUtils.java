@@ -9,10 +9,11 @@ import com.runnzzerfitness.data.SettingsManager;
 
 public class PanelsBindingUtils {
 
-
     private Context context;
     private FragmentManager fragmentManager;
 
+
+    //TODO remove this binder.
 
     public PanelsBindingUtils(Context context, FragmentManager fragmentManager) {
         this.context = context;
@@ -20,7 +21,6 @@ public class PanelsBindingUtils {
 
         loadFragments();
     }
-
 
 
     private void loadFragments (){

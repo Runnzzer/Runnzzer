@@ -142,7 +142,8 @@ public class Tracker implements LocationListener,Runnable{
         //stop location updates.
         locationManager.removeUpdates(this);
 
-        //block processing thread.
+        //TODO recheck if location updates Queue still contains some updates (find solution for it).
+        //block location updates processing thread.
         locationUpdatesProcessor.interrupt();
 
         //insert all tracking data to the data wrapper object.
@@ -235,8 +236,6 @@ public class Tracker implements LocationListener,Runnable{
 
 
 
-
-
     @Override
     public void onLocationChanged(Location location) {
         if (location != null){
@@ -248,21 +247,20 @@ public class Tracker implements LocationListener,Runnable{
         }
     }
 
-
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
 
     }
-
 
     @Override
     public void onProviderEnabled(String provider) {
 
     }
 
-
     @Override
     public void onProviderDisabled(String provider) {
 
     }
+
+
 }
